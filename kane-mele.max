@@ -1,0 +1,17 @@
+/* reset() */
+kill(all);
+sx:matrix([0,1],[1,0]);
+sy:matrix([0,-%i],[%i,0]);
+sz:matrix([1,0],[0,-1]);
+id:matrix([1,0],[0,1]);
+id4:kronecker_product(id,id);
+gg[1]:kronecker_product(sx,id);
+gg[2]:kronecker_product(sz,id);
+gg[3]:kronecker_product(sy,sx);
+gg[4]:kronecker_product(sy,sy);
+gg[5]:kronecker_product(sy,sz);
+gg[12]:-%i*gg[1].gg[2];
+gg[15]:-%i*gg[1].gg[5];
+gg[23]:-%i*gg[2].gg[3];
+gg[24]:-%i*gg[2].gg[4];
+hh:d[1]*gg[1] + d[2]*gg[2] + d[3]*gg[3] + d[4]*gg[4] + d[12]*gg[12] + d[15]*gg[15] + d[23]*gg[23]+d[24]*gg[24];

@@ -1,0 +1,8 @@
+
+            m = 1.1
+            nx = 50
+            ny = 100
+            rot_ky = 0 * pi
+            prepend_rho = 1
+            normalize = 0
+            

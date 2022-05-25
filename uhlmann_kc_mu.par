@@ -1,0 +1,8 @@
+
+            kx = 0 * pi
+            mu = 0
+            nx = 100
+            ny = 100
+            prepend_rho = 1
+            normalize = 1
+            

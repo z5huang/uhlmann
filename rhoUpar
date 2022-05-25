@@ -1,0 +1,15 @@
+
+            m = 0.5
+            phi = 0.3 * pi
+            t1 = 0.3 # second neighbor hopping along dir 1, etc.
+            t2 = 0.3
+            t3 = 0.3
+            nx = 100
+            ny = 100
+            mu = 0.5
+            T = 10
+            
+sum_of_U_arg0 = 0.00108044
+sum_of_U_arg1 = -0.00108044
+sum_of_rhoU_arg0 = 0.0983911
+sum_of_rhoU_arg1 = -0.0983911

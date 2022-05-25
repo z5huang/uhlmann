@@ -1,0 +1,17 @@
+
+            tr_amp = 53.6468
+            tr_angle = -0.228423
+            m = 0.5
+            ny_half = 100
+            phi = 0.3 * pi
+            t1 = 0.3 # second neighbor hopping along dir 1, etc.
+            t2 = 0.3
+            t3 = 0.3
+            nx = 200
+            ny = 200
+            mu = 0
+            T = 0.3
+            prepend_rho = 1
+            rot_kx = 1.11156 * pi
+            normalize = 0
+            
